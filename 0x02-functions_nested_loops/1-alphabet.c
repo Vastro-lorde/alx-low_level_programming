@@ -8,11 +8,9 @@
 
 void print_alphabet(void) {
 int c;
-for(c = 'a'; c <= 'z'; c++)
-{
+if(c < 90) c += 32;
 _putchar(c);
-}
-_putchar('\n' )
+_putchar('\n');
 
 }
 
